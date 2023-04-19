@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Insignias do PAQ</title>
+
+</head>
+<body>
+    <div class="total">
+
+        <div class="form">
+
+            <input placeholder="Nome" type="text" id="nome"/>
+            <input placeholder="Idade" type="text" id="idade"/>
+            <input type="file" name="arquivos" class="btn btn-success" multiple id="image"/>
+
+            <select name="select1">
+                <option value="Paqnic">Opção 1</option>
+                <option value="Design">Opção 2</option>
+                <option value="Programação">Opção 3</option>
+              </select>
+
+              <select name="select2">
+                <option value="Paqnic">Opção 1</option>
+                <option value="Design">Opção 2</option>
+                <option value="Programação">Opção 3</option>
+              </select>
+
+              <select name="select3">
+                <option value="Paqnic">Opção 1</option>
+                <option value="Design">Opção 2</option>
+                <option value="Programação">Opção 3</option>
+              </select>
+
+              <button class="botãoenviar" onclick="atualizarCracha(); atualizarInsignias(); dicionarImagem();">Atualizar</button>
+
+        </div>
+
+        <div class="broche">
+
+            <div class="infos">
+                <img src="./img/perfil.png" width="200px" alt="" id="img-cracha"/>
+                <h2 id="nome-cracha">NOME</h2>
+                <p id="idade-cracha">IDADE</p>
+            </div>
+            
+            <div class="insignias">
+                <img src="./img/insignias/select.svg" width="200px" alt="" id="Insignia1"/>
+                <img src="./img/insignias/select.svg" width="200px" alt="" id="Insignia2"/>
+                <img src="./img/insignias/select.svg" width="200px" alt="" id="Insignia3"/>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
